@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+.bitmap {
+    background-image: url(https://s3-alpha-sig.figma.com/img/03b8/22a8/10f232874b021926bb904eafb394287f?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=W2UbKhGFnYrpmolIeEKMcTzg6KklgiEM4qbb~6WHe96Z46VdnziBMQ8lATqEc-OZuJ-bBJAZnXSkbprfyrXdqgbeR3GsvMeljsQ4vngUt7nkqwzoLa6yW-L6HmtBg3g-MzWeuT90eVrCGxCgQ59FW5XP9PppUMbZPJULWFgdk04rvKFiuEsSuKLFfROhUbgrg~ehz2wfjr-3OD2iGSs1I19E-FSEprG3LpvIW-Myd6ynWqrWbK684Q1DbVGk9CUoh3joJcQyHFB94rNeVmbGAoKHb5YLv5lygrNVO-BsuvC1s3S0aaX2YWh5sFoLQLamNfJHirjBqpvcxE7AIjMjBA__);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bitmap_bck {
+    width: 100%;
+    height: 100%;
+    opacity: 75%;
+    background: linear-gradient(225deg, #5596FF 0%, #AC2DEB 100%);
+
+}
+
+.bt_container {
+    width: 500px;
+    left: 35%;
+    position: absolute;
+    top: 120px;
+    transform: translateX(-50%);
+    width: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.bt_container_text {
+    width: 100%;
+    color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 250px;
+    gap: 150px;
+}
+
+.bt_container_text h3 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 15px;
+    text-align: left;
+    width: 167px;
+    height: 40px;
+
+
+}
+
+.bt_container_text i {
+    width: 25.11px;
+    height: 26px;
+    top: 11px;
+    left: 515px;
+    gap: 0px;
+    opacity: 0px;
+    font-size: 30px;
+    color: white;
+}
+
+
+.input {
+    width: 540px;
+    height: 64px;
+    /* top: 158px; */
+    /* left: 450px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-top: 20px;
+    /* background-color: black; */
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+
+}
+
+.checkbox {
+    width: 24px;
+    height: 24px;
+    gap: 0px;
+    /* border: 1px 0px 0px 0px; */
+    opacity: 0px;
+    background: #FFFFFF;
+    border: 1px solid #E3E4F1;
+    border-radius: 50%;
+    /* background: linear-gradient(225deg, #5596FF 0%, #AC2DEB 100%); */
+}
+
+.input_text {
+    width: 156px;
+    height: 18px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    border: none;
+    padding-left: 10px;
+    color: #9495A5;
+    background-color: transparent;
+}
+
+.input_text  {
+    outline: none;
+    border: none;
+    background-color: white;
+}
+
+.button_add {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.25px;
+    text-align: left;
+    border: none;
+    padding-left: 10px;
+    color: #9495A5;
+}
+
+.list {
+    width: 540px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 400px;
+    /* margin-top: 10px; */
+
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: white;
+}
+
+.list i {
+    color: red;
+    font-size: 25px;
+
+    /* color:linear-gradient(225deg, #5596FF 0%, #AC2DEB 100%) ; */
+    /* background: linear-gradient(225deg, #5596FF 0%, #AC2DEB 100%); */
+
+}
+
+.list_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/* .dark mode */
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.dark-mode .bitmap {
+    background-image: none;
+    background-color: #333;
+}
+.dark-mode .bitmap {
+    background-image: url(https://s3-alpha-sig.figma.com/img/a0f4/beb0/598988b6993552d320eca695eaadbb10?Expires=1716163200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=d1OqMDbi~yl-FgTMY2bHh67A-WSkr0Gh1vKiDno-r94fi8mdbl28g7brb2d0dLaeU17tqu1RvHh9cwIvwMJkkdt0BVcpICvKSMwUZFTC0dFNlB0HgNteZlgsMMZ5VoGZ2BPVm1XlmqG1VSE1huP2XqFeOlqm~C41czAuvoSHkVBp1CX9~O7ZYazY3ryUOY2uKzB3YREUlCg2QyLjhh16GAF0vT1teICa1tQXSfwTH5xa-j8QdwD1ZyzW9xUnwucArbCxNxxiFSdhnkMuDaI5dpVay1C~VMQsLz8wzQhDtK7Wul1PiBrHWpA6L4zCqgdgH5cGSb-iGX1mFZzxm8oriw__);
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.dark-mode .bitmap_bck {
+    background: linear-gradient(225deg, #444 0%, #222 100%);
+    opacity: 75%;
+}
+
+.dark-mode .input,
+.dark-mode .list {
+    background-color: #393A4B;
+}
+
+.dark-mode .list i {
+    color: white;
+}
+
+.dark-mode .checkbox {
+    border: 1px solid #888;
+}
